@@ -69,7 +69,7 @@ export function activate(context: vscode.ExtensionContext) {
 				// Don't necessarily show an error message for stderr, as some browsers output harmless messages
 			}
 			console.log(`stdout: ${stdout}`);
-			vscode.window.showInformationMessage(`Opened ${relativePath} in browser.`);
+			vscode.window.setStatusBarMessage(`Opened ${relativePath} in browser`, 5000); // Show for 5 seconds
 		} catch (error: any) { // Catch errors from the exec promise
 			console.error(`exec error: ${error}`);
 			vscode.window.showErrorMessage(`Failed to open in browser: ${error.message}`);
