@@ -2,6 +2,7 @@
   "name": "run-in-browser",
   "displayName": "Run in Browser",
   "description": "Opens PHP/HTML files in a browser via a local server",
+  "publisher": "arabgeeks",
   "version": "0.0.1",
   "repository": {
     "type": "git",
