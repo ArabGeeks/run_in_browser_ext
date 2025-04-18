@@ -3,6 +3,10 @@
   "displayName": "Run in Browser",
   "description": "Opens PHP/HTML files in a browser via a local server",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArabGeeks/run_in_browser_ext.git"
+  },
   "engines": {
     "vscode": "^1.99.0"
   },
